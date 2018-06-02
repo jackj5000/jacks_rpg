@@ -85,15 +85,7 @@ def main():
         game.run_logic()
         game.display_frame(screen)
         clock.tick(60)
-    pygame.quit()
-    
-##    apple = Food('APPLE', 0.50, 0.33, 1)
-##    chicken = Food('CHICKEN', 4.99, 2.00, 5)
-##    one_dollar = Currency('ONE_DOLLAR', 1.00, 0, 1.00)
-##    buddy.add_item(apple)
-##    buddy.add_item(chicken)
-##    buddy.add_item(one_dollar)
-##    buddy.use_item('APPLE')
+    pygame.quit()    
 
     
 if __name__ == "__main__":
